@@ -15,7 +15,7 @@ According to [this comment](https://github.com/KhaosT/homebridge-camera-ffmpeg/i
       {
          "name": "Pi Cam",
          "videoConfig": {
-            "source": "-re -r 6 -s 1280x720 -f video4linux2 -i /dev/video0",
+            "source": "-r 6 -s 1280x720 -f video4linux2 -i /dev/video0",
             "stillImageSource": "-s 1280x720 -f video4linux2 -i /dev/video0",
             "maxStreams": 2,
             "maxWidth": 1280,

@@ -17,7 +17,7 @@ Pelco cameras have two streams `rtsp//camera-ip/stream1` and `rtsp//camera-ip/st
       {
           "name":"Baksidan",
           "videoConfig":{
-            "source":"-re -i rtsp://192.168.5.34/stream2",
+            "source":"-i rtsp://192.168.5.34/stream2",
             "stillImageSource":"-i http://192.168.5.34/jpeg",
             "maxStreams":2,
             "maxWidth":640,

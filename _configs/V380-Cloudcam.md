@@ -27,7 +27,7 @@ Download files [here](https://drive.google.com/file/d/0B8j89vcA6EWGdlgxcWVuZTlJZ
           "name" : "V380",
           "videoConfig" : {
             "vcodec" : "h264_omx",
-            "source" : "-re -i rtsp://admin:password@XXX.XXX.XXX.XXX/live/ch00_1",
+            "source" : "-i rtsp://admin:password@XXX.XXX.XXX.XXX/live/ch00_1",
             "maxFPS" : 25,
             "maxHeight" : 720,
             "maxStreams" : 2,

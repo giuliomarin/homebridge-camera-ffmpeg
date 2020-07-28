@@ -14,7 +14,7 @@ date: 2020-04-18
 {
 "name": "Camera Living Room Amcrest",
 "videoConfig": {
-"source": "-rtsp_transport tcp -re -i rtsp://user:pwd@192.168.1.221/cam/realmonitor?channel=1&subtype=00&authbasic=YWRtaW46bG9sYTk2OTg=",
+"source": "-rtsp_transport tcp -i rtsp://user:pwd@192.168.1.221/cam/realmonitor?channel=1&subtype=00&authbasic=YWRtaW46bG9sYTk2OTg=",
 "stillImageSource": "-i http://user:pwd@192.168.1.221/cgi-bin/snapshot.cgi?1",
 "maxStreams": 2,
 "maxWidth": 1280,

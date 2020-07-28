@@ -13,7 +13,7 @@ This config reads images from a remote computer (e.g. Raspberry Pi) running [Mot
             {
                 "name": "MotionEyeOS",
                 "videoConfig": {
-                    "source": "-re -f mjpeg -i http://192.168.2.26:8081",
+                    "source": "-f mjpeg -i http://192.168.2.26:8081",
                     "stillImageSource": "-f mjpeg -i http://192.168.2.26/picture/1/current/",
                     "maxStreams": 2,
                     "maxWidth": 1280,

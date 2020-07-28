@@ -16,7 +16,7 @@ This works for me, it's for a Doorbird Video Doorbell, which I think uses the sa
       {
           "name":"Front Door Camera",
           "videoConfig":{
-            "source":"-re -i http://192.168.1.100:80/bha-api/video.cgi?http-user=username&http-password=password",
+            "source":"-i http://192.168.1.100:80/bha-api/video.cgi?http-user=username&http-password=password",
             "maxStreams":2,
             "maxWidth":640,
             "maxHeight":480,

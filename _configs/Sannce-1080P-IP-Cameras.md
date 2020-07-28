@@ -12,7 +12,7 @@ Purchased as a set of 4 with an NVR (no HD), available on [Amazon.ca] (https://w
 {
    "name":"Sannce",
    "videoConfig":{
-      "source":"-rtsp_transport tcp -re -i rtsp://192.168.1.100/user=name_password=pass_channel=1_stream=0.sdp?real_stream",
+      "source":"-rtsp_transport tcp -i rtsp://192.168.1.100/user=name_password=pass_channel=1_stream=0.sdp?real_stream",
       "maxStreams":2,
       "maxWidth":1920,
       "maxHeight":1080,

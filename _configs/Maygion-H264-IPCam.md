@@ -16,7 +16,7 @@ MPEG Snapshot & RTSP Stream
       {
           "name":"Maygion",
           "videoConfig":{
-            "source":"-re -i rtsp://[USER]:[PASSWORD]@ip-address:81/videostream.cgi",
+            "source":"-i rtsp://[USER]:[PASSWORD]@ip-address:81/videostream.cgi",
             "stillImageSource":"-i http://ip-address:81/snapshot.cgi?user=[USER]&pwd=[PASSWORD]",
             "maxStreams":2,
             "maxWidth":1280,

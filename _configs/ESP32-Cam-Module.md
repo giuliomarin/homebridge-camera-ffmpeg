@@ -16,7 +16,7 @@ date: 2019-12-22
          "model": "ESP32-Cam",
          "serialNumber": "XXXXXXXXX",
          "videoConfig": {
-             "source": "-re -f mjpeg -i http://XXX.XXX.XXX.XXX:81/stream",
+             "source": "-f mjpeg -i http://XXX.XXX.XXX.XXX:81/stream",
              "stillImageSource": "-f mjpeg -i http://XXX.XXX.XXX.XXX/capture",
              "maxStreams": 2,
              "maxWidth": 1600,

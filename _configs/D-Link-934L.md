@@ -12,7 +12,7 @@ Tested on Raspberry Pi 3 (with omx)
 {
 	"name": "D-Link Camera",
 	"videoConfig": {
-		"source": "-re -f mjpeg -i http://admin:password@localip:port/video.cgi",
+		"source": "-f mjpeg -i http://admin:password@localip:port/video.cgi",
 		"stillImageSource": "-f mjpeg -i http://admin:password@localip:port/image/jpeg.cgi",
 		"maxStreams": 2,
 		"maxWidth": 640,

@@ -152,7 +152,7 @@ here another conf with audio and rtsp:
 ```json
 "name": "Reolink2",
 "videoConfig": {
-    "source": "-rtsp_transport tcp -re -i rtsp://admin:XXX@192.168.178.91:554/h264Preview_01_sub",
+    "source": "-rtsp_transport tcp -i rtsp://admin:XXX@192.168.178.91:554/h264Preview_01_sub",
     "stillImageSource": "-i http://192.168.178.91/cgi-bin/api.cgi?cmd=Snap&channel=0&rs=wuuPhkmUCeI9WG7C&user=admin&password=XXX",
     "maxWidth": 1280,
     "maxHeight": 720,

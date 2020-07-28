@@ -14,7 +14,7 @@ date: 2020-06-11
 	"serialNumber": "4A040C2PAU4C91E",
 	"firmwareRevision": "2.400.0000000.16.R",
 	"videoConfig": {
-		"source": "-rtsp_transport tcp -re -i rtsp://USERNAME:PASSWORD@CAMERA-IP:PORT//cam/realmonitor?channel=1&subtype=0",
+		"source": "-rtsp_transport tcp -i rtsp://USERNAME:PASSWORD@CAMERA-IP:PORT//cam/realmonitor?channel=1&subtype=0",
 		"vcodec": "libx264 -preset ultrafast",
 		"maxStreams": 2,
 		"maxWidth": 1280,

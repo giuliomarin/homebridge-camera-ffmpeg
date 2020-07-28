@@ -16,7 +16,7 @@ Working through RTSP on RaspberryPi
       {
          "name":"Camera",
          "videoConfig":{
-            "source":"-rtsp_transport tcp -re -i rtsp://username:password@XXX.XXX.XXX.XXX:port/videoSub",
+            "source":"-rtsp_transport tcp -i rtsp://username:password@XXX.XXX.XXX.XXX:port/videoSub",
             "stillImageSource":"-i http://username:password@XXX.XXX.XXX.XXX:port/cgi-bin/CGIProxy.fcgi?cmd=snapPicture2&usr=username&pwd=password",
             "maxStreams": 2,
             "maxWidth": 1280,

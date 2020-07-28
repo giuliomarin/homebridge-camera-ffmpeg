@@ -15,7 +15,7 @@ Using https://github.com/legotheboss/homebridge-camera-ffmpeg-omx fork for RPi 3
 {
    "name":"Driveway",
    "videoConfig":{
-      "source":"-rtsp_transport http -re -i rtsp://domain:port/4a1baa33-31a8-52f3-5524-12345aa111a7_0",
+      "source":"-rtsp_transport http -i rtsp://domain:port/4a1baa33-31a8-52f3-5524-12345aa111a7_0",
       "maxStreams":2,
       "maxWidth":1270,
       "maxHeight":720,

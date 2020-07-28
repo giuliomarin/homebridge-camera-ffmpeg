@@ -13,7 +13,7 @@ Server on Synology with Docker via oznu's homebridge-syno-spk
   "manufacturer": "Avtech",
   "model": "AVM-542B",
   "videoConfig": {
-    "source": "-rtsp_transport tcp -re -i rtsp://admin:password@192.168.1.1/live/video/profile1",
+    "source": "-rtsp_transport tcp -i rtsp://admin:password@192.168.1.1/live/video/profile1",
     "maxStreams": 2,
     "maxWidth": 1920,
     "maxHeight": 1080,

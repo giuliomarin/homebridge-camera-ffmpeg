@@ -29,7 +29,7 @@ U-Code Off
     {
         "name": "Front of House",
         "videoConfig": {
-            "source": "-rtsp_transport tcp -re -i rtsp://username:password@ipaddress:554/unicast/c1/s1/live",
+            "source": "-rtsp_transport tcp -i rtsp://username:password@ipaddress:554/unicast/c1/s1/live",
             "maxStreams": 2,
             "maxWidth": 1280,
             "maxHeight": 720,

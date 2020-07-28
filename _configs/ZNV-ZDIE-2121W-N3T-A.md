@@ -20,7 +20,7 @@ date: 2018-04-20
             "name": "ZNVCam",
             "uploader": false,
             "videoConfig": {
-                "source": "-rtsp_transport tcp -re -I rtsp://<admin>:<password>@192.168.0.254:554/ch0_0.h264",
+                "source": "-rtsp_transport tcp -I rtsp://<admin>:<password>@192.168.0.254:554/ch0_0.h264",
                 "maxStreams": 2,
                 "maxWidth": 1280,
                 "maxHeight": 720,

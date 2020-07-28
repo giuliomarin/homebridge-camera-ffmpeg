@@ -14,7 +14,7 @@ Not it's fixed (config for Xiaomi Xiaofang 1S):
 {
   "name":"Camera",
   "videoConfig":{
-    "source": "-rtsp_transport tcp -re -i rtsp://your_ip_address",
+    "source": "-rtsp_transport tcp -i rtsp://your_ip_address",
     "maxFPS":30,
     "maxWidth": 1280,
     "maxHeight": 720,

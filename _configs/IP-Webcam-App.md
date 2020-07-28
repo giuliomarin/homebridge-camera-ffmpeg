@@ -13,7 +13,7 @@ Working through http
 {
    "name":"Bedroom",
    "videoConfig":{
-      "source":"-re -i http://src/video -i http://src/audio.opus",
+      "source":"-i http://src/video -i http://src/audio.opus",
       "stillImageSource":"-i http://src/shot.jpg",
       "maxStreams":2,
       "maxWidth":640,

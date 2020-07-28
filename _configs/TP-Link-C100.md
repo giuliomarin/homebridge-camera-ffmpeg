@@ -17,8 +17,8 @@ Model C 100
             "model": "C100",
             "motion": true,
             "videoConfig": {
-                "source": "-rtsp_transport http -re -i rtsp://user:password@ip:554/stream1",
-                "stillImageSource": "-rtsp_transport tcp -re -i rtsp://user:password@ip:554/stream1",
+                "source": "-rtsp_transport http -i rtsp://user:password@ip:554/stream1",
+                "stillImageSource": "-rtsp_transport tcp -i rtsp://user:password@ip:554/stream1",
                 "maxStreams": 2,
                 "maxWidth": 1024,
                 "maxHeight": 576,

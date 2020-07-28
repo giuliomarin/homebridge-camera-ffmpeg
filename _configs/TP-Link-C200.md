@@ -19,7 +19,7 @@ Model C 200
             "serialNumber": "1C3BF372F96C",
             "firmwareRevision": "1.0.5",
             "videoConfig": {
-                "source": "-re -i rtsp://user:password@ip:554/stream2",
+                "source": "-i rtsp://user:password@ip:554/stream2",
                 "stillImageSource": "-i rtsp:// user:password@ip:554/stream2",
                 "maxStreams": 2,
                 "maxWidth": 1280,

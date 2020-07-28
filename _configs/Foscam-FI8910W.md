@@ -13,7 +13,7 @@ Streaming via http
   {
       "name": "Camera",
       "videoConfig": {
-      	"source": "-re -i http://user:pass@10.0.1.131:8090/videostream.asf?user=user&pwd=pass&resolution=320x240",
+      	"source": "-i http://user:pass@10.0.1.131:8090/videostream.asf?user=user&pwd=pass&resolution=320x240",
         "stillImageSource": "-i http://user:pass@10.0.1.131:8090/snapshot.jpg?user=user&pwd=pass&strm=0",
       	"maxStreams": 2,
       	"maxWidth": 1280,

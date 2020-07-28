@@ -22,7 +22,7 @@ date: 2020-07-19
             "motion": true,
             "switches": true,
             "videoConfig": {
-                "source": "-re -r 30 -video_size 1920x1080 -f video4linux2 -input_format h264 -i /dev/video0 -copyts -start_at_zero -timestamps abs",
+                "source": "-r 30 -video_size 1920x1080 -f video4linux2 -input_format h264 -i /dev/video0 -copyts -start_at_zero -timestamps abs",
                 "stillImageSource": "-video_size 1920x1080 -f video4linux2 -i /dev/video0 -ss 1.5",
                 "maxStreams": 2,
                 "maxFPS": 30,
@@ -77,7 +77,7 @@ If necessary it may be needed to update the NTP server configuration in `/etc/sy
             "motion": true,
             "switches": true,
             "videoConfig": {
-                "source": "-re -r 30 -video_size 1920x1080 -f video4linux2 -input_format h264 -i /dev/video0 -crf 18 -threads 3",
+                "source": "-r 30 -video_size 1920x1080 -f video4linux2 -input_format h264 -i /dev/video0 -crf 18 -threads 3",
                 "stillImageSource": "-video_size 1920x1080 -f video4linux2 -i /dev/video0 -ss 1.5",
                 "maxStreams": 2,
                 "maxFPS": 30,
@@ -109,7 +109,7 @@ The `crf` and `threads` parameters allow for setting adequate video quality and 
             "motion": true,
             "switches": true,
             "videoConfig": {
-                "source": "-re -r 30 -video_size 1920x1080 -f video4linux2 -input_format h264 -i /dev/video0",
+                "source": "-r 30 -video_size 1920x1080 -f video4linux2 -input_format h264 -i /dev/video0",
                 "stillImageSource": "-video_size 1920x1080 -f video4linux2 -i /dev/video0 -ss 1.5",
                 "maxStreams": 2,
                 "maxFPS": 30,

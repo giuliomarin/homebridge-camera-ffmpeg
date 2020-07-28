@@ -14,7 +14,7 @@ Audio and video working on a Raspberry Pi 3 Model B using the instructions [here
 {
   "name": "UniFi-G3-Micro",
   "videoConfig": {
-    "source": "-re -rtsp_transport tcp -i rtsp://UNIFI_CLOUD_KEY_G2_IP:PORT/UNIQUE_ID",
+    "source": "-rtsp_transport tcp -i rtsp://UNIFI_CLOUD_KEY_G2_IP:PORT/UNIQUE_ID",
     "stillImageSource": "-i http://UNIFI_CAMERA_IP/snap.jpeg",
     "additionalCommandline": "-preset slow -profile:v high -level 4.2 -x264-params intra-refresh=1:bframes=0",
     "vcodec": "h264_omx",

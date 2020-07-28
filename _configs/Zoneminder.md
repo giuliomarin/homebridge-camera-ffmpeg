@@ -12,7 +12,7 @@ works pretty well with zoneminder, using the ZM 'nph-zms' urls. Since the stream
 {
   "name": "Sideyard Cam",
   "videoConfig": {
-    "source": "-re -i http://localhost/zm/cgi-bin/nph-zms?mode=jpeg&monitor=<zm monitor id>&scale=100&maxfps=15&buffer=1000&user=<zm user>&pass=<zm passwd>",
+    "source": "-i http://localhost/zm/cgi-bin/nph-zms?mode=jpeg&monitor=<zm monitor id>&scale=100&maxfps=15&buffer=1000&user=<zm user>&pass=<zm passwd>",
     "stillImageSource": "-i http://localhost/zm/cgi-bin/nph-zms?mode=single&monitor=<zm monitor id>&scale=100&user=<zm user>&pass=<zm passwd>",
     "maxStreams": 2,
     "maxWidth": 1280,

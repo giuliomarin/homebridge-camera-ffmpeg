@@ -16,7 +16,7 @@ Working through RTSP on RaspberryPi
           "name" : "Digoo",
           "videoConfig" : {
             "vcodec" : "h264_omx",
-            "source" : "-re -i rtsp://XXX.XXX.XXX.XXX",
+            "source" : "-i rtsp://XXX.XXX.XXX.XXX",
             "maxFPS" : 25,
             "maxHeight" : 720,
             "maxStreams" : 2,

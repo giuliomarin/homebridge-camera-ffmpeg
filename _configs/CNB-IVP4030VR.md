@@ -17,7 +17,7 @@ Homebridge config.json:
         {
             "name": "Front Gate Camera",
             "videoConfig": {
-                    "source": "-re -i rtsp://<192.168.X.X:665",
+                    "source": "-i rtsp://<192.168.X.X:665",
                     "maxStreams": 2,
                     "maxWidth": 640,
                     "maxHeight": 480,

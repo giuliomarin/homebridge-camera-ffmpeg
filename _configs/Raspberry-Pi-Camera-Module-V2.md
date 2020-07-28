@@ -21,8 +21,8 @@ Still image sometimes don't refresh in homekit App : Need to reboot the iPhone t
       "name": "piCam",
       "uploader": false,
       "videoConfig": {
-          "source": "-re -f video4linux2 -i /dev/video0",
-          "stillImageSource": "-re -f video4linux2 -ss 0.9 -i /dev/video0 -vframes 1",
+          "source": "-f video4linux2 -i /dev/video0",
+          "stillImageSource": "-f video4linux2 -ss 0.9 -i /dev/video0 -vframes 1",
           "maxStreams": 2,
           "maxWidth": 1920,
           "maxHeight": 1080,

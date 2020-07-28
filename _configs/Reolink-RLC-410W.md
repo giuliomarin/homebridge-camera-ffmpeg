@@ -14,7 +14,7 @@ date: 2018-04-18
 {
 "name": "Camera Driveway Reolink",
 "videoConfig": {
-"source": "-rtsp_transport tcp -re -i rtsp://admin:lola9698@192.168.1.241:554/h264Preview_01_main",
+"source": "-rtsp_transport tcp -i rtsp://admin:lola9698@192.168.1.241:554/h264Preview_01_main",
 "stillImageSource": "-i http://192.168.1.241/cgi-bin/api.cgi?cmd=Snap&channel=0&rs=wuuPhkmUCeI9WG7C&user=admin&password=pwd",
 "maxStreams": 2,
 "maxWidth": 1280,

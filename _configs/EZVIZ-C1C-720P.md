@@ -18,7 +18,7 @@ Camera password is the 6 character verification code printed on the back of each
   {
       "name": "CAMERA NAME",
       "videoConfig": {
-          "source": "-re -i rtsp://admin:password@nn.nn.nn.nn:554/h264_stream",
+          "source": "-i rtsp://admin:password@nn.nn.nn.nn:554/h264_stream",
           "maxStreams": 2,
           "maxWidth": 1280,
           "maxHeight": 720,

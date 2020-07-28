@@ -19,7 +19,7 @@ A wireless camera system that records locally and supports RTSP. Love it! Tested
         {
             "name": "Back Yard",
             "videoConfig": {
-                "source": "-re -i rtsp://192.168.x.x:554/live0",
+                "source": "-i rtsp://192.168.x.x:554/live0",
                 "maxStreams": 2,
                 "maxWidth": 1920,
                 "maxHeight": 1080,

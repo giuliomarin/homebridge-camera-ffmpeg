@@ -45,7 +45,7 @@ Cron job to pull the latest snapshot locally every minute
         {
             "name": "Balcony Camera",
             "videoConfig": {
-                "source": "-f rtsp -re -i rtsp://192.168.1.107:8000/live",
+                "source": "-f rtsp -i rtsp://192.168.1.107:8000/live",
                 "stillImageSource": "-i file:///home/pi/latest.jpg",
                 "maxStreams": 2,
                 "maxWidth": 1280,

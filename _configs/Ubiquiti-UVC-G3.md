@@ -14,7 +14,7 @@ date: 2020-05-11
     "serialNumber": "XYZXYZYZY",
     "firmwareRevision": "4.14",
     "videoConfig": {
-        "source": "-rtsp_transport tcp -re -i rtsp://admin:xxxxxxx@172.16.33.67:554/s0",
+        "source": "-rtsp_transport tcp -i rtsp://admin:xxxxxxx@172.16.33.67:554/s0",
         "maxStreams": 2,
         "maxWidth": 1920,
         "maxHeight": 1080,

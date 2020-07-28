@@ -16,7 +16,7 @@ You can also use "rtsp://ip-address/11" for HQ-Stream.
   {
     "name": "Camera",
     "videoConfig": {
-    "source": "-rtsp_transport tcp -re -i rtsp://ip-address/12",
+    "source": "-rtsp_transport tcp -i rtsp://ip-address/12",
     "stillImageSource": "-i http://username:password@ip-address/tmpfs/auto.jpg",
     "maxStreams": 2,
     "maxWidth": 640,

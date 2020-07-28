@@ -6,7 +6,7 @@ iSpyConnect [maintains a large database](https://www.ispyconnect.com/sources.asp
 
 If you don’t know, or can’t find this information, start with this website.
 
-While many of these configurations use the `-re` option in their source configs, it is strongly recommended that you do not use that, as it may cause problems with live video.
+Despite what some older posts and comments you come across may mention, it is strongly recommended that you do not use the `-re` setting in your source, as it is known to cause problems with live sources.
 {% assign collection = site.configs | sort_natural:"title" %}
 {% for config in collection %}
  - [{{ config.title }}]({{ site.baseurl }}{{ config.url }}){% if config.comment %}: {{ config.comment }}{% endif %}

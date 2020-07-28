@@ -16,7 +16,7 @@ When using Surveillance Station to connect and record the camera there is no poi
                 {
                     "name": "My Camera",
                     "videoConfig": {
-                        "source": "-re -i rtsp://syno:1234567890abcdef1234567890abcdef@localhost:554/Sms=1.unicast",
+                        "source": "-i rtsp://syno:1234567890abcdef1234567890abcdef@localhost:554/Sms=1.unicast",
                         "maxWidth": 1920,
                         "maxHeight": 1080,
                         "maxFPS": 30,

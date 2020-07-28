@@ -14,7 +14,7 @@ date: 2017-03-31
       {
          "name":"Camera Rocam-NC400HD",
          "videoConfig":{
-            "source":"-re -i http://IPADDRESS:PORT/videostream.cgi?loginuse=ADMIN&loginpas=PASSWORD",
+            "source":"-i http://IPADDRESS:PORT/videostream.cgi?loginuse=ADMIN&loginpas=PASSWORD",
             "stillImageSource":"-i http://IPADDRESS:PORT/snapshot.cgi?user=ADMIN&pwd=PASSWORD",
             "maxStreams":2,
             "maxWidth":1280,

@@ -15,7 +15,7 @@ Working through RTSP
       {
          "name":"Camera",
          "videoConfig":{
-            "source":"-re -i rtsp://username:password@192.168.31.51:88/videoMain",
+            "source":"-i rtsp://username:password@192.168.31.51:88/videoMain",
             "stillImageSource":"-i http://username:password@192.168.31.51:88/cgi-bin/CGIProxy.fcgi?cmd=snapPicture2&usr=username&pwd=password&",
             "maxStreams":2,
             "maxWidth":1280,

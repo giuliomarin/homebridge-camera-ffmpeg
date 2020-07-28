@@ -13,7 +13,7 @@ This configuration works with synchronized video/audio:
     {
       "name": "Logitech-C525",
       "videoConfig": {
-        "source": "-f alsa -ac 1 -ar 44100 -thread_queue_size 2048 -i plughw:CARD=C525,DEV=0 -re -f video4linux2 -i /dev/video0 -vsync 0 -af aresample=async=1",
+        "source": "-f alsa -ac 1 -ar 44100 -thread_queue_size 2048 -i plughw:CARD=C525,DEV=0 -f video4linux2 -i /dev/video0 -vsync 0 -af aresample=async=1",
         "stillImageSource":"-s 1280x720 -f video4linux2 -i /dev/video0",
         "maxStreams": 2,
         "maxWidth": 1280,
